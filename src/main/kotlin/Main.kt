@@ -1,4 +1,4 @@
-import problems.MaxProdSubArray
+import problems.TwoSum
 
 class Main {
 
@@ -6,9 +6,7 @@ class Main {
         @JvmStatic
         fun main(args: Array<String>) {
             println(
-                MaxProdSubArray(
-                    intArrayOf(-2,0,-1)
-                ).maxProduct()
+                TwoSum().twoSum(intArrayOf(3,3), 6).joinToString()
             )
         }
     }
