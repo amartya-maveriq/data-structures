@@ -1,7 +1,9 @@
 import ds.BinaryTree
 import models.TreeNode
 import problems.FirstLastIndexNum
+import problems.MaxSumSubArray
 import problems.ProductExceptSelf
+import problems.ValidParentheses
 
 class Main {
 
@@ -9,14 +11,7 @@ class Main {
         @JvmStatic
         fun main(args: Array<String>) {
             println(
-                FirstLastIndexNum()
-                    .findFirstLastIndex(
-                        intArrayOf(
-                            2,3
-                        ),
-                        2
-                    )
-                    .joinToString()
+                ValidParentheses().isValid("){")
             )
         }
     }
