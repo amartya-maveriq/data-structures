@@ -1,8 +1,7 @@
-import ds.BinarySearchTree
-import problems.AnagramStrings
+import ds.BinaryTree
+import models.TreeNode
 import problems.FirstLastIndexNum
-import problems.KthLargest
-import problems.TwoSum
+import problems.ProductExceptSelf
 
 class Main {
 
@@ -10,19 +9,14 @@ class Main {
         @JvmStatic
         fun main(args: Array<String>) {
             println(
-                BinarySearchTree(7).apply {
-                    insert(3)
-                    insert(9)
-                    insert(6)
-                    insert(5)
-                    insert(1)
-                    insert(8)
-                    insert(4)
-                    insert(6)
-                    insert(10)
-                    insert(2)
-                    print()
-                }
+                FirstLastIndexNum()
+                    .findFirstLastIndex(
+                        intArrayOf(
+                            2,3
+                        ),
+                        2
+                    )
+                    .joinToString()
             )
         }
     }

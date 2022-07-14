@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06b2f277-8aae-4efb-8b35-630dbaed9642" name="Changes" comment="PS - Max Product SubArray">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/TwoSum.kt" afterDir="false" />
+    <list default="true" id="06b2f277-8aae-4efb-8b35-630dbaed9642" name="Changes" comment="DS - BinarySearchTree">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ds/BinaryTree.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/AnagramStrings.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/BuySellStock.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/FirstLastIndexNum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/KthLargest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/ProductExceptSelf.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -21,6 +26,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/Main.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/problems/BuySellStock.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/problems/FirstLastIndexNum.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/problems/KthLargest.kt" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,7 +82,21 @@
       <option name="project" value="LOCAL" />
       <updated>1657383533497</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="PS - 2 sum">
+      <created>1657384603032</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657384603032</updated>
+    </task>
+    <task id="LOCAL-00004" summary="DS - BinarySearchTree">
+      <created>1657696527638</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657696527638</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -88,6 +113,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="DS - LinkedList generic Class added&#10;PS - Squared array problem added" />
     <MESSAGE value="PS - Max Product SubArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="PS - Max Product SubArray" />
+    <MESSAGE value="PS - 2 sum" />
+    <MESSAGE value="DS - BinarySearchTree" />
+    <option name="LAST_COMMIT_MESSAGE" value="DS - BinarySearchTree" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/data_structures$Main.ic" NAME="Main Coverage Results" MODIFIED="1657622765271" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>
