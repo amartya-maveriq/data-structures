@@ -18,8 +18,8 @@ class BinaryTree<T>(
         while (queue.isNotEmpty()) {
             val tempNode = queue.poll()
             println(tempNode.data.toString())
-            tempNode.leftNode?.let { queue.add(it) }
-            tempNode.rightNode?.let { queue.add(it) }
+            tempNode.left?.let { queue.add(it) }
+            tempNode.right?.let { queue.add(it) }
         }
     }
 
@@ -33,8 +33,8 @@ class BinaryTree<T>(
             for (i in 0 until len) {
                 val tempNode = queue.poll()
                 innerList.add(tempNode.data)
-                tempNode.leftNode?.let { queue.add(it) }
-                tempNode.rightNode?.let { queue.add(it) }
+                tempNode.left?.let { queue.add(it) }
+                tempNode.right?.let { queue.add(it) }
             }
             result.add(innerList)
         }

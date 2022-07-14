@@ -22,19 +22,19 @@ class BinarySearchTree(rootData: Int) {
     }
 
     private fun TreeNode<Int>.print() {
-        this.leftNode?.print()
+        this.left?.print()
         println(this.data)
-        this.rightNode?.print()
+        this.right?.print()
     }
 
     private fun TreeNode<Int>.insert(data: Int) {
         if (data >= this.data) {
-            this.rightNode?.insert(data) ?: kotlin.run {
-                this.rightNode = TreeNode(data)
+            this.right?.insert(data) ?: kotlin.run {
+                this.right = TreeNode(data)
             }
         } else {
-            this.leftNode?.insert(data) ?: kotlin.run {
-                this.leftNode = TreeNode(data)
+            this.left?.insert(data) ?: kotlin.run {
+                this.left = TreeNode(data)
             }
         }
     }
