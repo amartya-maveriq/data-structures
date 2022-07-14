@@ -1,3 +1,4 @@
+import algos.BinarySearch
 import ds.BinaryTree
 import models.TreeNode
 import problems.FirstLastIndexNum
@@ -11,7 +12,10 @@ class Main {
         @JvmStatic
         fun main(args: Array<String>) {
             println(
-                ValidParentheses().isValid("){")
+                FirstLastIndexNum().findFirstLastIndex(
+                    intArrayOf(),
+                    6
+                ).joinToString()
             )
         }
     }

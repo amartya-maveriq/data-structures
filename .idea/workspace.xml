@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06b2f277-8aae-4efb-8b35-630dbaed9642" name="Changes" comment="BinTreeFromPreInOrder">
+    <list default="true" id="06b2f277-8aae-4efb-8b35-630dbaed9642" name="Changes" comment="ValidParentheses, MaxSumSubArray">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algos/BinarySearch.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/FirstLastIndexNum.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/KthLargest.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/MaxSumSubArray.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/ValidParentheses.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -19,6 +18,7 @@
       <list>
         <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -111,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657788406765</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="ValidParentheses, MaxSumSubArray">
+      <created>1657809497716</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657809497716</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +139,8 @@
     <MESSAGE value="DS - BinarySearchTree" />
     <MESSAGE value="BinaryTree, BuySellStock, AnagramStrings, ProductExceptSelf" />
     <MESSAGE value="BinTreeFromPreInOrder" />
-    <option name="LAST_COMMIT_MESSAGE" value="BinTreeFromPreInOrder" />
+    <MESSAGE value="ValidParentheses, MaxSumSubArray" />
+    <option name="LAST_COMMIT_MESSAGE" value="ValidParentheses, MaxSumSubArray" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structures$Main.ic" NAME="Main Coverage Results" MODIFIED="1657799828154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
