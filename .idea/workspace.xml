@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06b2f277-8aae-4efb-8b35-630dbaed9642" name="Changes" comment="ValidParentheses, MaxSumSubArray">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/algos/BinarySearch.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/FirstLastIndexNum.kt" afterDir="false" />
+    <list default="true" id="06b2f277-8aae-4efb-8b35-630dbaed9642" name="Changes" comment="FirstLastIndexNum, algo: BinarySearch">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ds/Graph.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/models/GraphNode.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/InjectFive.kt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/KthLargest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/MaxAreaOfIsland.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/problems/ReverseStringRecursion.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -16,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Object" />
         <option value="Kotlin Data Class" />
         <option value="Kotlin Class" />
-        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -43,13 +46,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "settings.editor.selected.configurable": "project.scopes"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="JetRunConfigurationType">
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -118,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657809497716</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="FirstLastIndexNum, algo: BinarySearch">
+      <created>1657821991496</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657821991496</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -140,7 +150,8 @@
     <MESSAGE value="BinaryTree, BuySellStock, AnagramStrings, ProductExceptSelf" />
     <MESSAGE value="BinTreeFromPreInOrder" />
     <MESSAGE value="ValidParentheses, MaxSumSubArray" />
-    <option name="LAST_COMMIT_MESSAGE" value="ValidParentheses, MaxSumSubArray" />
+    <MESSAGE value="FirstLastIndexNum, algo: BinarySearch" />
+    <option name="LAST_COMMIT_MESSAGE" value="FirstLastIndexNum, algo: BinarySearch" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/data_structures$Main.ic" NAME="Main Coverage Results" MODIFIED="1657799828154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
