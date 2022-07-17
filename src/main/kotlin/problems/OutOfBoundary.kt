@@ -1,6 +1,6 @@
 package problems
 
-/*
+/**
  * Leetcode : medium
  * https://leetcode.com/problems/out-of-boundary-paths/
  * There is an m x n grid with a ball. The ball is initially at the position [startRow, startColumn].
