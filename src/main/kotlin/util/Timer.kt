@@ -9,6 +9,6 @@ object Timer {
     }
 
     fun stop() {
-        println("${(System.nanoTime()- timeInNanos)/(1000 * 1000)} ms")
+        println("${(System.nanoTime()- timeInNanos)/(1000)} micros")
     }
 }
