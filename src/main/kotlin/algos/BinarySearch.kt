@@ -22,4 +22,19 @@ object BinarySearch {
 
         return search(0, arr.lastIndex)
     }
+
+    fun binarySearchIterative(arr: IntArray, target: Int): Boolean {
+        var i = 0
+        var j = arr.size - 1
+        var mid: Int
+        while (i <= j) {
+            mid = (i+j)/2
+            when {
+                target < arr[mid] -> j = mid - 1
+                target > arr[mid] -> i = mid + 1
+                else -> return true
+            }
+        }
+        return false
+    }
 }
